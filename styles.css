@@ -2,10 +2,43 @@
     list-style: none;
 }
 
+.header{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
 .header-wrapper{
     display: flex;
+    border-bottom: 1px solid black;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    padding-bottom: 20px;
+
 }
 .header-main{
 font-family: Silkscreen;
-font-size: 200px;
+font-size: 50px;
+padding-top: 40px;
+margin: 2px;
+}
+
+.header-list{
+    display: flex;
+    gap: 20px;
+    margin-right: 200px;
+}
+
+.header-list-item{
+    padding-top: 67px;
+    font-family: Arvo;
+    font-size: 12px;
+}
+
+.header-para{
+    font-family: Arvo;
+    padding-top: 67px;
+    font-size: 12px;
+
 }
