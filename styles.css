@@ -12,7 +12,7 @@ background-color: #f1a689;
 
 .header-wrapper{
     display: flex;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
     justify-content: center;
     align-items: center;
     width: 59.6%;
@@ -38,11 +38,13 @@ margin: 2px;
 .header-list-item{
     padding-top: 67px;
     font-family: Arvo;
+    font-weight: 600;
     font-size: 12px;
 }
 
 .header-para{
     font-family: Arvo;
+    font-weight: 600;
     padding-top: 67px;
     font-size: 12px;
 
@@ -52,4 +54,10 @@ margin: 2px;
     width: 10px;
     margin-top: 66px;
     margin-left: 7px;
+}
+
+.landing-main{
+    font-family: Arvo;
+    font-size: 30px;
+
 }
