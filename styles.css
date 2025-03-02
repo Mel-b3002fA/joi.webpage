@@ -1,0 +1,11 @@
+*{
+    list-style: none;
+}
+
+.header-wrapper{
+    display: flex;
+}
+.header-main{
+font-family: Silkscreen;
+font-size: 200px;
+}
