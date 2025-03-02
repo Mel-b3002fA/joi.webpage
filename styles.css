@@ -59,5 +59,13 @@ margin: 2px;
 .landing-main{
     font-family: Arvo;
     font-size: 30px;
+margin-left: 280px;
+margin-top: 70px;
+}
 
+.landing-para{
+    font-family: Arvo;
+    font-weight: 200;
+    margin-left: 280px;
+    width: 800px;
 }
