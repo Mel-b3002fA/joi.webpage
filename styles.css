@@ -98,12 +98,13 @@ a{
 
 .button-wrapper{
     margin-left: 280px;
-    margin-top: 84px;
+    margin-top: /* 84px */;
     display: flex;
     gap: 30px;
 }
 
 .btn-1{
+    height: 40px;
         background-color: #FFEB1C;
         color: black;
         font-family: Arvo;
@@ -120,6 +121,14 @@ a{
 .btn-1:hover{
 }
 
+.wrapper{
+   display: flex;
+}
 
+.cup{
+    width: 150px;
+    margin-left: 280px;
+    margin-top: 70px;
+}
 
     
