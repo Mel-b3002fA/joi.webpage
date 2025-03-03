@@ -118,6 +118,8 @@ a{
         display: inline-block;
         position: relative;
     background-color: #ffffff00;
+    display: flex;
+    align-items: center;
 }
 
 .btn-1:hover{
@@ -131,6 +133,11 @@ a{
     width: 180px;
     margin-left: 260px;
     margin-top: px;
+}
+
+.group2{
+    margin-left: 10px;
+    width: 15px;
 }
 
     
