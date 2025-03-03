@@ -1,5 +1,6 @@
 *{
     list-style: none;
+    text-decoration: none;
 }
 html{
 background-color: #f1a689;
@@ -73,4 +74,8 @@ margin-top: 70px;
 .mark1{
     background-color:  rgb(119, 243, 224);
     padding: 2px;
+}
+
+a{
+    color: black;
 }
