@@ -79,3 +79,19 @@ margin-top: 70px;
 a{
     color: black;
 }
+
+.dev{
+    background-color: #f1a689;
+}
+
+.about-wrapper1{
+    display: flex;
+}
+
+.about-wrapper2{
+    display: flex;
+}
+
+.about-wrapper3{
+    display: flex;
+}
