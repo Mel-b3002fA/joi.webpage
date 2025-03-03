@@ -3,7 +3,7 @@
     text-decoration: none;
 }
 html{
-background-color: #f1a689;
+background-color: #FFEB1C /* #f1a689 */;
 }
 .header{
     display: flex;
@@ -94,4 +94,10 @@ a{
 
 .about-wrapper3{
     display: flex;
+}
+
+.btn-1{
+    background-color: #ffffff00;
+    border-left: 2px solid rgb(0, 0, 0);
+    border-bottom: 2px solid rgb(0, 0, 0);
 }
