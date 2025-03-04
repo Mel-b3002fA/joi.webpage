@@ -101,6 +101,11 @@ a{
     display: flex;
 }
 
+.png2{
+    width: 20px;
+    height: 30px;
+}
+
 .button-wrapper{
     margin-left: 280px;
     margin-top: 113px /* 84px */;
