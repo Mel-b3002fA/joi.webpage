@@ -83,12 +83,15 @@ a{
 }
 
 .dev{
-    background-color: #f1a689;
+    background-color: #FFEB1C;
 }
 
 .about-wrapper1{
     display: flex;
+    display: flex;
+    flex-direction: column;
 }
+
 
 .about-wrapper2{
     display: flex;
