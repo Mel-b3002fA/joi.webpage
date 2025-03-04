@@ -3,6 +3,10 @@
     text-decoration: none;
 }
 
+#icon-Content-Files-Pencil-Ruler{
+    stroke: aliceblue;
+}
+
 html{
 background-color: #FFEB1C /* #f1a689 */;
 }
