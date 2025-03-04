@@ -98,8 +98,16 @@ a{
 }
 
 .about-wrapper3{
-    display: flex;
+display: flex;
+justify-content: center;
+    align-items: center;
 }
+
+.about-wrapper4{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    }
 
 .png2{
     width: 20px;
@@ -130,8 +138,8 @@ a{
     align-items: center;
 }
 
-.btn-1:hover{
-}
+/* .btn-1:hover{
+} */
 
 .wrapper{
    display: flex;
