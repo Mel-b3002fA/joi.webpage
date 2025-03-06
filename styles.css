@@ -95,7 +95,7 @@ line-height: 140%;
     margin-left: 76px;
     max-width: 600px;
     font-size: 34px;
-        }
+    }
 }
 
 .landing-para{
@@ -179,7 +179,7 @@ justify-content: center;
     display: flex;
     align-items: center;
     @media screen and (max-width: 768px){
-        font-size: 17px;
+        font-size: 20px;
         padding-left: 30px;
         padding-right: 30px;
         padding-top: 20px;
