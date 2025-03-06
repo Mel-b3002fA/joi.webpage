@@ -77,6 +77,9 @@ flex-direction: column;
 margin-left: 280px;
 margin-top: 70px;
 line-height: 140%;
+@media screen and (max-width: 768px){
+    margin-left: 50px;
+        }
 }
 
 .landing-para{
@@ -85,6 +88,9 @@ line-height: 140%;
     margin-left: 280px;
     width: 600px;
     line-height: 150%;
+    @media screen and (max-width: 768px){
+        margin-left: 50px;
+    }
 }
 
 .mark1{
