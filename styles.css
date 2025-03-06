@@ -8,7 +8,7 @@
 }
 
 html{
-background-color: #FFEB1C /* #f1a689 */;
+background-color:  #FFEB1C /* #f1a689 */;
 @media screen and (max-width: 768px){
     background-color: #faef76 /* #f1a689 */;
 }
@@ -115,7 +115,7 @@ line-height: 140%;
 }
 
 .mark1{
-    background-color:  #77f3e0;
+    background-color: #77f3e0;
     padding: 2px;
 }
 
