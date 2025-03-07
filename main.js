@@ -1,4 +1,4 @@
-gsap.set('.cursor',{xPercent:-50, yPercent: -50})
+/* gsap.set('.cursor',{xPercent:-50, yPercent: -50})
 
     let cursor = document.querySelector('.cursor')
     let title = document.querySelector('.header')
@@ -13,7 +13,7 @@ gsap.set('.cursor',{xPercent:-50, yPercent: -50})
         gsap.to(cursor, 0.5, {x: mouseX, y:mouseY})
     })
 
-  /*   title.addEventListener('mouseenter', () => {
+    title.addEventListener('mouseenter', () => {
         gsap.to(hand, 1, {
             scale: 1,
             opacity: 1,
@@ -22,14 +22,14 @@ gsap.set('.cursor',{xPercent:-50, yPercent: -50})
             rotate: 0,
             ease: Elastic.easeOut.config(1, 0.3)
         })
-    }) */
+    }) 
 
-  /*   title.addEventListener('mousemove', () => {
+  title.addEventListener('mousemove', () => {
         gsap.to(hand, 1, {
             x: mouseX,
             y: mouseY
         })
-    }) */
+    })
 
     title.addEventListener('mouseleave', () => {
         gsap.to(hand, 0.2, {
@@ -39,4 +39,4 @@ gsap.set('.cursor',{xPercent:-50, yPercent: -50})
             left: '40',
             rotate: 45,
         })
-    })
+    }) */
