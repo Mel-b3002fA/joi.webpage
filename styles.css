@@ -238,10 +238,11 @@ justify-content: center;
     left: 0;
     pointer-events: none;
     transition: transform .1s;
-    background-color: #77f3e0;
+    background-color: #54f5dd;
     width: 20px;
     height: 20px;
     z-index: 999;
+    border-radius: 50%;
 }
 
 
