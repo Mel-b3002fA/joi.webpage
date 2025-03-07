@@ -215,4 +215,21 @@ justify-content: center;
 }
 
 
+.mission{
+    margin-left: 286px;
+    margin-right: 286px;
+}
+
+.mission-header{
+    font-family: Arvo;
+    font-weight: 600;
+    font-size: 30px;
+}
+
+.mission-para{
+    font-family: Arvo;
+    font-weight: 600;
+    font-size: 20px;
+}
+
     
