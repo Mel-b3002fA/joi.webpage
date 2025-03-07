@@ -221,6 +221,7 @@ justify-content: center;
 }
 
 .mission-header{
+    margin-top: 150px;
     font-family: Arvo;
     font-weight: 600;
     font-size: 30px;
@@ -228,8 +229,8 @@ justify-content: center;
 
 .mission-para{
     font-family: Arvo;
-    font-weight: 600;
-    font-size: 20px;
+    font-weight: 200;
+    font-size: 15px;
 }
 
     
