@@ -89,12 +89,12 @@ margin: 2px;
 /*     overflow: scroll; */
     padding-bottom: 300px;
 /*     scrollbar-color: #FFEB1C; */
-    @media screen and (max-width: 768px){
+@media screen and (max-width: 768px){
 max-width: 100%;
 display: flex;
 justify-content: center;
 flex-direction: column;
-    }
+}
 }
 
 .landing-main{
@@ -295,7 +295,7 @@ justify-content: center;
     font-size: 15px;
 }
 
-.cursor{
+/* .cursor{
     position:fixed;
     left: 0;
     pointer-events: none;
@@ -306,6 +306,6 @@ justify-content: center;
     z-index: 999;
     border-radius: 50%;
 }
-
+ */
 
     
