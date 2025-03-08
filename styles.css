@@ -163,7 +163,11 @@ justify-content: center;
     display: flex;
     justify-content: center;
         align-items: center;
-    }
+}
+
+.wrapper3-main{
+    
+}
 
 .png1{
     width: 20px;
