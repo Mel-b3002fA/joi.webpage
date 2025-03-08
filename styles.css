@@ -144,8 +144,10 @@ a{
 .about-wrapper2{
     margin-top: 20px;
     display: flex;
+    justify-content: center;
+    margin-left: ;
     gap: 20px;
-    border: 20px solid rgba(0, 0, 0, 0.763);
+    border: 20px solid rgb(0, 0, 0);
   
 }
 
