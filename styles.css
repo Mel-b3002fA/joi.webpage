@@ -138,7 +138,7 @@ a{
 .about-wrapper2{
     display: flex;
     gap: 20px;
-    border: ;
+/*     border: ; */
 }
 
 .about-wrapper3{
@@ -162,11 +162,15 @@ justify-content: center;
 .about-wrapper4{
     display: flex;
     justify-content: center;
-        align-items: center;
+    align-items: center;
 }
 
 .wrapper3-main{
-    
+    font-family: Arvo;
+    font-weight: 200;
+    margin-left: 10px;
+    width: 600px;
+    line-height: 150%;
 }
 
 .png1{
