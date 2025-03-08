@@ -15,11 +15,12 @@ background-color:  #FFEB1C /* #f1a689 */;
 }
 
 .header{
+   /*  margin-top: 0px; */
     display: flex;
     width: 100%;
     justify-content: center;
-    position: fixed;
-    z-index: 998;
+ /*    position: fixed;
+    z-index: 998; */
     background-color: #FFEB1C;
 }
 
@@ -84,8 +85,10 @@ margin: 2px;
 }
 
 .landing{
-    padding-top: 180px;
-    overflow: scroll;
+/*     padding-top: 180px; */
+/*     overflow: scroll; */
+    padding-bottom: 300px;
+/*     scrollbar-color: #FFEB1C; */
     @media screen and (max-width: 768px){
 max-width: 100%;
 display: flex;
