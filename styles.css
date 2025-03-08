@@ -136,23 +136,11 @@ a{
 
 
 .about-wrapper2{
+    margin-top: 20px;
     display: flex;
     gap: 20px;
     border: 2px solid black;
-    clip-path: polygon(
-          0px calc(100% - 7px),
-          7px calc(100% - 7px),
-          7px 100%,
-          calc(100% - 7px) 100%,
-          calc(100% - 7px) calc(100% - 7px),
-          100% calc(100% - 7px),
-          100% 7px,
-          calc(100% - 7px) 7px,
-          calc(100% - 7px) 0px,
-          7px 0px,
-          7px 7px,
-          0px 7px
-        );
+  
 }
 
 .about-wrapper3{
