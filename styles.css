@@ -18,6 +18,9 @@ background-color:  #FFEB1C /* #f1a689 */;
     display: flex;
     width: 100%;
     justify-content: center;
+    position: fixed;
+    z-index: 998;
+    background-color: #FFEB1C;
 }
 
 .header-wrapper{
@@ -81,6 +84,8 @@ margin: 2px;
 }
 
 .landing{
+    padding-top: 180px;
+    overflow: scroll;
     @media screen and (max-width: 768px){
 max-width: 100%;
 display: flex;
@@ -133,13 +138,11 @@ a{
     display: flex;
     flex-direction: column;
 }
-
-
 .about-wrapper2{
     margin-top: 20px;
     display: flex;
     gap: 20px;
-    border: 2px solid black;
+    border: 20px solid rgba(0, 0, 0, 0.763);
   
 }
 
@@ -148,11 +151,12 @@ display: flex;
 justify-content: center;
     align-items: center;
 }
+
 .about-wrapper4{
     display: flex;
     justify-content: center;
         align-items: center;
-    }
+}
 
 .about-wrapper5{
     display: flex;
