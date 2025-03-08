@@ -138,8 +138,8 @@ a{
 .about-wrapper2{
     display: flex;
     gap: 20px;
-    .pixel-corners {
-        clip-path: polygon(
+    border: 2px solid black;
+    clip-path: polygon(
           0px calc(100% - 7px),
           7px calc(100% - 7px),
           7px 100%,
@@ -153,7 +153,6 @@ a{
           7px 7px,
           0px 7px
         );
-      }
 }
 
 .about-wrapper3{
