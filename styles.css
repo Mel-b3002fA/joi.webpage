@@ -144,6 +144,18 @@ display: flex;
 justify-content: center;
     align-items: center;
 }
+.about-wrapper3{
+    display: flex;
+    justify-content: center;
+        align-items: center;
+    }
+
+.about-wrapper5{
+    display: flex;
+justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
 
 .about-wrapper4{
     display: flex;
@@ -151,9 +163,13 @@ justify-content: center;
         align-items: center;
     }
 
+.png1{
+    width: 20px;
+    height: 27px;
+}
 .png2{
     width: 20px;
-    height: 30px;
+    height: 27px;
 }
 
 .button-wrapper{
