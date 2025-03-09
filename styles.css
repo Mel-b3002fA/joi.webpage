@@ -14,6 +14,13 @@ background-color:  #FFEB1C /* #f1a689 */;
 }
 }
 
+
+.color-picker > fieldset{
+ border: 0;
+ display: flex;
+ gap: 2rem;
+ background: #FFEB1C;
+}
 .header{
    /*  margin-top: 0px; */
     display: flex;
