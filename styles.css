@@ -360,12 +360,12 @@ padding-bottom: 100px;
 
 .btn-1{
     height: 40px;
-        background-color: #FFEB1C;
-        color: black;
+        background-color: var(--clr-bg);
+        color: var(--clr-text);
         font-family: Arvo;
         font-size: 12px;
         font-weight: bold;
-        border: 3px solid black;
+        border: 3px solid var(--clr-text);
         padding: 10px 20px;
         text-decoration: none;
         display: inline-block;
