@@ -135,6 +135,7 @@ color: var(--clr-text);
     font-weight: 600;
     padding-top: 67px;
     font-size: 12px;
+    
     @media screen and (max-width: 768px){
         font-size: 17px;
     }
@@ -144,6 +145,22 @@ color: var(--clr-text);
     width: 10px;
     margin-top: 66px;
     margin-left: 7px;
+}
+
+.about-link{
+    color: var(--clr-text);
+}
+
+.contact-link{
+    color: var(--clr-text);
+}
+
+.blog-link{
+    color: var(--clr-text);
+}
+
+.depl-link{
+    color: var(--clr-text);
 }
 
 .landing{
