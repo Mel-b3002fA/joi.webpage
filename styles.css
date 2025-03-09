@@ -50,7 +50,7 @@ label{
     font-size: 12px;
 }
 
-.theme-clr-pink{
+/* .theme-clr-pink{
     color: var(--clr-text);
     font-family: Arvo;
 }
@@ -58,7 +58,7 @@ label{
 .theme-clr-black{
     color: var(--clr-text);
     font-family: Arvo;
-}
+} */
 
 .color-picker > fieldset{
  border: 0;
@@ -87,6 +87,20 @@ label{
 }
 .color-picker input[type="radio"]:check{
     background-color: var(--radio-color);
+}
+
+#pink{
+    color: var(--clr-text);
+    font-family: Arvo;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+#black{
+    color: var(--clr-text);
+    font-family: Arvo;
+    font-weight: 600;
+    font-size: 12px;
 }
 
 .color-picker input[type="radio"]#pink {
