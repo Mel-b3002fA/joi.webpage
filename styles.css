@@ -57,6 +57,11 @@ background-color:  #FFEB1C /* #f1a689 */;
     --radio-color: rgb(0, 0, 0);
 }
 
+:root:has(#pink:checked) {
+    --clr-text: black;
+    --clr-bg: #FC9DF7;
+}
+
 
 .header{
    /*  margin-top: 0px; */
