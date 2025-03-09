@@ -18,6 +18,11 @@ background-color:  #FFEB1C /* #f1a689 */;
     margin: 0;
 }
 
+:root {
+    --clr-text: rgb(0, 0, 0);
+    --clr-bg:yellow;
+}
+
 
 .color-picker > fieldset{
  border: 0;
