@@ -45,13 +45,18 @@ background-color:  #FFEB1C /* #f1a689 */;
     background-color: var(--radio-color);
 }
 
-.color-picker input[type="radio"]#blue {
---radio-color: blue;
+.color-picker input[type="radio"]#pink {
+--radio-color: #FC9DF7;
 }
 
-.color-picker input[type="radio"]#blue {
+.color-picker input[type="radio"]#light {
     --radio-color: yellow;
-    }
+}
+
+.color-picker input[type="radio"]#black {
+    --radio-color: rgb(0, 0, 0);
+}
+
 
 .header{
    /*  margin-top: 0px; */
