@@ -163,6 +163,10 @@ color: var(--clr-text);
     color: var(--clr-text);
 }
 
+.dev-link{
+    color: var(--clr-text);
+}
+
 .landing{
 /*     padding-top: 180px; */
 /*     overflow: scroll; */
