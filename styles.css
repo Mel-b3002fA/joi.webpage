@@ -62,6 +62,11 @@ background-color:  #FFEB1C /* #f1a689 */;
     --clr-bg: #FC9DF7;
 }
 
+:root:has(#black:checked) {
+    --clr-text: yellow;
+    --clr-bg: black;
+}
+
 
 .header{
    /*  margin-top: 0px; */
@@ -70,9 +75,9 @@ background-color:  #FFEB1C /* #f1a689 */;
     justify-content: center;
  /*    position: fixed;
     z-index: 998; */
-    background-color: #FFEB1C;
+    background-color: var(--clr-bg);
     @media screen and (max-width: 768px){
-        background-color: #fdf058 /* #f1a689 */;
+        background-color: var(--clr-bg) /* #f1a689 */;
     }
 }
 
