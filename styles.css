@@ -36,10 +36,17 @@ background-color:  #FFEB1C /* #f1a689 */;
     border: 3px solid var(--radio-color, currentColor);
     border-radius: 50%;
 }
+.color-picker input[type="radio"]:check{
+    background-color: var(--radio-color);
+}
 
 .color-picker input[type="radio"]#blue {
-
+--radio-color: blue;
 }
+
+.color-picker input[type="radio"]#blue {
+    --radio-color: yellow;
+    }
 
 .header{
    /*  margin-top: 0px; */
