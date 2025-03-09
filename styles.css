@@ -101,6 +101,7 @@ font-family: Silkscreen;
 font-size: 57.5px;
 padding-top: 40px;
 margin: 2px;
+color: var(--clr-text);
 @media screen and (max-width: 768px){
     font-size: 76px;
 }
@@ -123,6 +124,7 @@ margin: 2px;
     font-family: Arvo;
     font-weight: 600;
     font-size: 12px;
+    color: var(--clr-text);
     @media screen and (max-width: 768px){
         font-size: 17px;
     }
