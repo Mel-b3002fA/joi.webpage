@@ -20,6 +20,7 @@ background-color:  var(--clr-bg) /* #f1a689 */;
 
 :root {
     --clr-text: rgb(0, 0, 0);
+    --clr-text-spe: black;
     --clr-bg:yellow;
     --clr-mark:  #77f3e0;
 }
@@ -82,6 +83,7 @@ p,h1{
     --clr-text: #FC9DF7;
     --clr-bg: #F3F9FC;
     --clr-mark: #FC9DF7;
+    --clr-text-spe: #F3F9FC;
     .header-img{
         display: none;
     }
@@ -234,6 +236,7 @@ line-height: 140%;
 .mark1{
     background-color: var(--clr-mark);
     padding: 2px;
+    color: var(--clr-text-spe);
 
 }
 
