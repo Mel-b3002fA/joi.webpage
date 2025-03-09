@@ -56,6 +56,9 @@ background-color:  #FFEB1C /* #f1a689 */;
  /*    position: fixed;
     z-index: 998; */
     background-color: #FFEB1C;
+    @media screen and (max-width: 768px){
+        background-color: #fdf058 /* #f1a689 */;
+    }
 }
 
 .header-wrapper{
