@@ -37,6 +37,10 @@ background-color:  #FFEB1C /* #f1a689 */;
     border-radius: 50%;
 }
 
+.color-picker input[type="radio"]#blue {
+
+}
+
 .header{
    /*  margin-top: 0px; */
     display: flex;
