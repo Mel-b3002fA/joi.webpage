@@ -68,15 +68,15 @@ p,h1{
 }
 
 .color-picker input[type="radio"]#pink {
---radio-color: #FC9DF7;
+ --radio-color: #FC9DF7; 
 }
 
 .color-picker input[type="radio"]#light {
-    --radio-color: yellow;
+ --radio-color: yellow; 
 }
 
 .color-picker input[type="radio"]#black {
-    --radio-color: rgb(0, 0, 0);
+   --radio-color: rgb(0, 0, 0); 
 }
 
 :root:has(#pink:checked) {
@@ -191,6 +191,18 @@ color: var(--clr-text);
 }
 
 .dev-link{
+    color: var(--clr-text);
+}
+
+.convers-btn{
+    color: var(--clr-text);
+}
+
+.more-btn{
+    color: var(--clr-text);
+}
+
+.blog-btn{
     color: var(--clr-text);
 }
 
