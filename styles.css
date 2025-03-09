@@ -30,6 +30,18 @@ p,h1{
     color: var(--clr-text);
 }
 
+label{
+    font-family: Arvo;
+    font-weight: 600;
+    font-size: 12px; 
+}
+
+.checkbox-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4px;
+}
 
 .theme-clr-light{
     color: var(--clr-text);
@@ -54,13 +66,16 @@ p,h1{
  gap: 20px;
  background: var(--clr-bg);
  width: 200px;
- margin-top: 80px;
+ margin-top: 70px;
 
 }
 .fieldset{
-    display: flex;
+  /*   display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center; */
+    margin-left: 40px;
+    margin-right: 40px;
+    background-color: var(--clr-mark);
 }
 
 .color-picker input[type="radio"]{

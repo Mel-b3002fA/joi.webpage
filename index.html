@@ -40,24 +40,28 @@
         <form class="color-picker"
         action="">
             <fieldset class="fieldset">
-                <label for="theme" class="theme-clr-light">Light</label>
-                   <input type="radio" 
-                     name="theme"
-                     id="light" checked>
-                     
-                     <label for="theme" 
+                <div class="checkbox-wrapper">
+                    <label for="theme" class="theme-clr-light">Light</label>
+                    <input type="radio" 
+                    name="theme"
+                    id="light" checked>
+                </div> 
+                <div class="checkbox-wrapper">
+                    <label for="theme" 
                      class="visually-hidden" class="theme-clr-pink">Pink
                     </label>
                     <input type="radio" 
                     name="theme"
                     id="pink">
-                  
+                </div>
+                <div class="checkbox-wrapper">
                     <label for="theme" 
                      class="visually-hidden" class="theme-clr-black">Black
                     </label>
                     <input type="radio" 
                      name="theme"
                      id="black">
+                </div>
                    
             </fieldset>
         </form>
