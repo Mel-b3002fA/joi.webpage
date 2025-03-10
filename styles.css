@@ -20,7 +20,7 @@ background-color:  var(--clr-bg) /* #f1a689 */;
 
 :root {
     --clr-text: rgb(0, 0, 0);
-    --clr-text-spe: black;
+    --clr-text-spe: rgb(0, 0, 0);
     --clr-bg:yellow;
     --clr-mark:  #77f3e0;
     --radio-outline: 1px solid black;
@@ -194,6 +194,8 @@ input{
         filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%);
     }
 }
+
+
 
 
 .header{
