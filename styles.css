@@ -551,12 +551,14 @@ padding-bottom: 100px;
     justify-content: center;
  }
 
- .guote-left{
+ .quote-left{
     /* padding-right: 40px; */
+    padding-top: 20px;
+    padding-right: 4px;
  }
 
  .quote-text{
-margin-left: 15px;
-margin-right: 15px;
+font-family: Arvo;
+font-size: 30px;
  }
     
