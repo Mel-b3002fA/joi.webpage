@@ -540,4 +540,9 @@ padding-bottom: 100px;
  .quote{
     margin-top: 200px;
  }
+
+ .quote-wrapper{
+    display: flex;
+    flex-direction: column;
+ }
     
