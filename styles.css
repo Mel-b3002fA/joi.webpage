@@ -556,14 +556,14 @@ padding-bottom: 100px;
     /* padding-right: 40px; */
     padding-top: 54px;
     margin-right: 480px;
-    position: fixed;
+/*     position: fixed; */
  }
 
  .quote-text{
 font-family: Arvo;
 font-size: 30px;
 line-height: 180%;
-position: fixed;
+/* position: fixed; */
  }
  
 .quote-right{
