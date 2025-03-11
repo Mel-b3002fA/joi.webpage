@@ -555,7 +555,8 @@ padding-bottom: 100px;
  .quote-left{
     /* padding-right: 40px; */
     padding-top: 54px;
-    margin-right: 470px;
+    margin-right: 480px;
+    position: fixed;
  }
 
  .quote-text{
@@ -566,9 +567,8 @@ position: fixed;
  }
  
 .quote-right{
-   
-    padding-top: 54px;
-    margin-right: 470px;
+padding-top: 120px;
+padding-left: 700px;
  }
 
     
