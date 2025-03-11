@@ -545,4 +545,17 @@ padding-bottom: 100px;
     display: flex;
     flex-direction: column;
  }
+
+ .quote-inner-wrapper{
+    display: flex;
+    justify-content: center;
+ }
+
+ .guote-left{
+    /* padding-right: 40px; */
+ }
+
+ .quote-text{
+
+ }
     
