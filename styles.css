@@ -554,13 +554,21 @@ padding-bottom: 100px;
 
  .quote-left{
     /* padding-right: 40px; */
-    padding-bottom: 60px;
-    padding-left: 4px;
+    padding-top: 54px;
+    margin-right: 470px;
  }
 
  .quote-text{
 font-family: Arvo;
 font-size: 30px;
-line-height: 160%;
+line-height: 180%;
+position: fixed;
  }
+ 
+.quote-right{
+   
+    padding-top: 54px;
+    margin-right: 470px;
+ }
+
     
