@@ -549,16 +549,18 @@ padding-bottom: 100px;
  .quote-inner-wrapper{
     display: flex;
     justify-content: center;
+    text-align: center;
  }
 
  .quote-left{
     /* padding-right: 40px; */
-    padding-top: 20px;
-    padding-right: 4px;
+    padding-bottom: 60px;
+    padding-left: 4px;
  }
 
  .quote-text{
 font-family: Arvo;
 font-size: 30px;
+line-height: 160%;
  }
     
