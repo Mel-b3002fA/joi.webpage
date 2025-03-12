@@ -353,7 +353,7 @@ line-height: 140%;
 }
 
 a{
-    color: black;
+    color: var(--clr-text);
 }
 
 .dev{
@@ -469,7 +469,7 @@ padding-bottom: 100px;
         text-decoration: none;
         display: inline-block;
         position: relative;
-    background-color: #ffffff00;
+    background-color: var(--clr-text);
     display: flex;
     align-items: center;
     @media screen and (max-width: 768px){
