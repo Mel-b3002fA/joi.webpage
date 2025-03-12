@@ -10,7 +10,7 @@
 html{
 background-color:  var(--clr-bg) /* #f1a689 */;
 @media screen and (max-width: 768px){
-    background-color: #fdf058 /* #f1a689 */;
+    background-color: var(--clr-bg) /* #f1a689 */;
 }
 }
 
