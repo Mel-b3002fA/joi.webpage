@@ -459,7 +459,7 @@ padding-bottom: 100px;
 
 .btn-1{
     height: 40px;
-        background-color: var(--clr-bg);
+        background-color: rgba(255, 255, 0, 0);
         color: var(--clr-text);
         font-family: Arvo;
         font-size: 12px;
@@ -469,7 +469,6 @@ padding-bottom: 100px;
         text-decoration: none;
         display: inline-block;
         position: relative;
-    background-color: var(--clr-text);
     display: flex;
     align-items: center;
     @media screen and (max-width: 768px){
@@ -566,6 +565,7 @@ max-width: 500px;
  
 .quote-right{
 padding-top: 100px;
+padding-right: 100px;
  } 
 
 .quote-author{
