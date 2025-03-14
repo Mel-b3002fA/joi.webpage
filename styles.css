@@ -557,6 +557,14 @@ padding-bottom: 100px;
     flex-direction: column;
  }
 
+ .quote-inner-inner-wrapper{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+    flex-direction: column;
+ }
+
 .quote-left{
 padding-bottom: 100px;
 }
