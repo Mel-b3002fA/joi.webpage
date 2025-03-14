@@ -181,6 +181,12 @@ input{
     .cup{
         filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
     }
+    .quote-left{
+        filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
+    }
+    .quote-right{
+        filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
+    }
 
 
 }
