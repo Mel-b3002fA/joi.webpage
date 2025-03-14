@@ -227,6 +227,11 @@ input{
         transition: background-color 1000ms linear;
     }
 
+.checkbox-wrapper{
+  -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;}
+
         -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
