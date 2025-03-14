@@ -214,6 +214,9 @@ input{
     .header-img{
         filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%);
     }
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
 
 
