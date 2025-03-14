@@ -142,10 +142,10 @@ label input{
     font-size: 12px;
 
 }
-
+/* 
 input{
     
-}
+} */
 
 #black{
     color: var(--clr-text);
