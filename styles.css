@@ -562,7 +562,6 @@ padding-bottom: 100px;
     justify-content: center;
     text-align: center;
     width: 100%;
-    flex-direction: column;
  }
 
 .quote-left{
