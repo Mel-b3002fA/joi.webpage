@@ -196,7 +196,9 @@ input{
    /*  .header-img{
         display: block;
     } */
-
+    -webkit-transition: background-color 1000ms linear;
+    -ms-transition: background-color 1000ms linear;
+    transition: background-color 1000ms linear;
 }
 
 :root:has(#black:checked) {
