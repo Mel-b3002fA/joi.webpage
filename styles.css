@@ -173,7 +173,7 @@ input{
     --clr-text-spe: #F3F9FC;
     --radio-color: rgb(119, 70, 70); 
     .header-img{
-        display: none;
+        filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
     }
     .group2{
         display: none;
