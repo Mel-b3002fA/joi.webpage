@@ -203,9 +203,6 @@ input{
     --clr-text: yellow;
     --clr-bg: black;
  /*    --radio-color:#FC9DF7; */
-    .header-img{
-        display: none;
-    }
     .group2{
         display: none;
     }
