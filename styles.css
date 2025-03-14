@@ -166,6 +166,24 @@ input{
    --radio-color: rgb(0, 0, 0); 
 }
 
+:root:has(#light:checked){
+
+    .checkbox-wrapper{
+        -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+    }
+
+    .header{
+        -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+    }
+    -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+}
+
 :root:has(#pink:checked) {
     --clr-text: #FC9DF7;
     --clr-bg: #F3F9FC;
@@ -196,10 +214,24 @@ input{
    /*  .header-img{
         display: block;
     } */
+
+    .checkbox-wrapper{
         -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
-}
+    }
+
+    .header{
+        -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+    }
+
+        -webkit-transition: background-color 1000ms linear;
+        -ms-transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear;
+
+    }
 
 :root:has(#black:checked) {
     --clr-text: yellow;
@@ -215,7 +247,7 @@ input{
         filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%);
     }
 
-    .chebkbox-wrapper{
+    .checkbox-wrapper{
         -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
