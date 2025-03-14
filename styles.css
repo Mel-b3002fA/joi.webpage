@@ -2,6 +2,9 @@
     list-style: none;
     text-decoration: none;
 }
+.title{
+    font-family: Silkscreen;
+}
 
 #icon-Content-Files-Pencil-Ruler{
     stroke: aliceblue;
