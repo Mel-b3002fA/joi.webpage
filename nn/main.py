@@ -11,7 +11,7 @@ biases = [2, 3, 0.5]
           inputs[0]*weights3[0] + inputs[1]*weights3[1]  + inputs[2]*weights3[2] + inputs[3]*weights3[3] + bias3]
 print(output) """
 
-layer_outputs = []
+""" layer_outputs = []
 for neuron_weights, neuron_bias in zip(weights, biases):
     neuron_output = 0 
     for n_input, weight in zip(inputs, neuron_weights):
@@ -20,5 +20,5 @@ for neuron_weights, neuron_bias in zip(weights, biases):
     layer_outputs.append(neuron_output)
 
     print(layer_outputs)
-            
+             """
         
