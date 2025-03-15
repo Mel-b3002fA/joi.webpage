@@ -329,9 +329,9 @@ color: var(--clr-text);
     }
 }
 
-.header-list-item:hover{
-    font-size: x-large;
-}
+/* .header-main:hover{
+    font-size: xx-large;
+} */
 
 .header-para{
     font-family: Arvo;
