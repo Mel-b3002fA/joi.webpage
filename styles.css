@@ -173,19 +173,19 @@ input{
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
     }
-    .fieldset{
+   /*  .fieldset{
         -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
-    }
-    .header{
+    } */
+/*     .header{
         -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
-    }
-    -webkit-transition: background-color 1000ms linear;
+    } */
+/*     -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
-        transition: background-color 1000ms linear;
+        transition: background-color 1000ms linear; */
 }
 
 :root:has(#pink:checked) {
@@ -220,11 +220,6 @@ input{
     } */
 
     .checkbox-wrapper{
-        -webkit-transition: background-color 1000ms linear;
-        -ms-transition: background-color 1000ms linear;
-        transition: background-color 1000ms linear;
-    }
-    .fieldset{
         -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear;
