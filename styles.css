@@ -707,5 +707,13 @@ padding-top: 100px;
     overflow: hidden;
 }
 
+.footer{
+    background-color: var(--clr-bg);
+    border-top: 2px solid black ;
+}
+.footer-copyright{
+    border-top: 2px solid black ;
+}
+
 
     
