@@ -699,4 +699,11 @@ padding-top: 100px;
     justify-content: center;
 }
 
+.carousel-section{
+    background-color: var(--clr-bg);
+}
+.carousel{
+    width: 700px;
+}
+
     
