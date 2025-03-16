@@ -352,7 +352,7 @@ color: var(--clr-text);
     font-weight: 600;
     padding-top: 67px;
     font-size: 12px;
-    
+    padding-top: 87px;
     @media screen and (max-width: 768px){
         font-size: 17px;
     }
