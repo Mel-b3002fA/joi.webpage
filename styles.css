@@ -109,11 +109,9 @@ label input{
 .color-picker > fieldset{
  border: 0;
  display: flex;
+ justify-content: center;
  gap: 5px;
  background: var(--clr-bg);
- width: 200px;
- margin-top: 70px;
- height: 40px;
  background-color: rgba(255, 255, 0, 0);
  color: var(--clr-text);
  font-family: Arvo;
@@ -124,8 +122,8 @@ label input{
  text-decoration: none;
  display: inline-block;
  position: relative;
- margin-left: 40px;
- margin-right: 40px;
+ margin-left: 80px;
+ margin-right: 80px;
  margin-top: 120px;
 
 }
@@ -701,9 +699,13 @@ padding-top: 100px;
 
 .carousel-section{
     background-color: var(--clr-bg);
+    display: flex;
+    justify-content: center;
 }
 .carousel{
     width: 700px;
+    overflow: hidden;
 }
+
 
     
