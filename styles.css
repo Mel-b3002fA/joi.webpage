@@ -313,6 +313,7 @@ font-family: Silkscreen;
 font-size: 57.5px;
 padding-top: 40px;
 margin: 2px;
+text-decoration: none;
 color: var(--clr-text);
 @media screen and (max-width: 768px){
     font-size: 76px;
@@ -398,6 +399,7 @@ color: var(--clr-text);
 /*     padding-top: 180px; */
 /*     overflow: scroll; */
     padding-bottom: 300px;
+    background-color:  var(--clr-bg) /* #f1a689 */;
 /*     scrollbar-color: #FFEB1C; */
 @media screen and (max-width: 768px){
 max-width: 100%;
@@ -410,9 +412,11 @@ flex-direction: column;
 .landing-main{
     font-family: Arvo;
     font-size: 30px;
-margin-left: 280px;
-margin-top: 70px;
+    font-weight: 600;
+padding-left: 280px;
+padding-top: 70px;
 line-height: 140%;
+background-color:  var(--clr-bg) /* #f1a689 */;
 @media screen and (max-width: 768px){
     margin-left: 76px;
     max-width: 600px;
