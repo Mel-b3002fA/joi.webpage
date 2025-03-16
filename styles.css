@@ -340,7 +340,7 @@ color: var(--clr-text);
     padding-top: 67px;
     font-family: Arvo;
     font-weight: 600;
-    font-size: 12px;
+    font-size: 13px;
     color: var(--clr-text);
     padding-top: 90px;
     @media screen and (max-width: 768px){
@@ -356,7 +356,7 @@ color: var(--clr-text);
     font-family: Arvo;
     font-weight: 600;
     padding-top: 67px;
-    font-size: 12px;
+    font-size: 13px;
     padding-top: 87px;
     @media screen and (max-width: 768px){
         font-size: 17px;
@@ -701,6 +701,7 @@ padding-top: 100px;
     background-color: var(--clr-bg);
     display: flex;
     justify-content: center;
+    padding-bottom: 160px;
 }
 .carousel{
     width: 700px;
@@ -712,7 +713,12 @@ padding-top: 100px;
     border-top: 2px solid black ;
 }
 .footer-copyright{
+    display: flex;
+    justify-content: center;
+    font-size: 15px;
+    font-family: Arvo;
     border-top: 2px solid black ;
+    padding-top: 20px;
 }
 
 
