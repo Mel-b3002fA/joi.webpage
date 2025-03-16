@@ -392,14 +392,17 @@ color: var(--clr-text);
 
 .convers-btn{
     color: var(--clr-text);
+    text-decoration: none;
 }
 
 .more-btn{
     color: var(--clr-text);
+    text-decoration: none;
 }
 
 .blog-btn{
     color: var(--clr-text);
+    text-decoration: none;
 }
 
 .landing{
