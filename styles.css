@@ -362,6 +362,7 @@ color: var(--clr-text);
     width: 10px;
     margin-top: 66px;
     margin-left: 7px;
+    padding-top: 5px;
 }
 
 .about-link{
