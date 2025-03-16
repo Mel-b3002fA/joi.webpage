@@ -714,6 +714,7 @@ padding-top: 100px;
 .footer{
     background-color: var(--clr-bg);
     border-top: 2px solid black ;
+    font-family: Arvo;
 }
 .footer-copyright{
     display: flex;
