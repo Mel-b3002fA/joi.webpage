@@ -615,12 +615,13 @@ padding-bottom: 100px;
 
 
 .mission{
-    margin-left: 286px;
-    margin-right: 286px;
+    padding-left: 286px;
+    padding-right: 286px;
+    background-color: var(--clr-bg);
 }
 
 .mission-header{
-    margin-top: 150px;
+    padding-top: 150px;
     font-family: Arvo;
     font-weight: 600;
     font-size: 30px;
@@ -715,10 +716,17 @@ padding-top: 100px;
     background-color: var(--clr-bg);
     font-family: Arvo;
 }
+
+.list-header{
+    font-weight: 600;
+}
+.list-item{
+    font-size: 12px;
+}
 .footer-copyright{
     display: flex;
     justify-content: center;
-    font-size: 15px;
+    font-size: 12px;
     font-family: Arvo;
     border-top: 2px solid black ;
     padding-top: 20px;
@@ -760,6 +768,7 @@ padding-bottom: 100px;
     width: 20px;
     height: 20px;
 }
+
 
 
     
