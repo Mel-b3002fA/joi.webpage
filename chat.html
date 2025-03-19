@@ -27,7 +27,12 @@
            </div>
         </header>
     <!-- Person selector: this contains buttons for user to select whether to chat as John or Jane -->
+    <div class="person-selector">
+      <button class="button person-selector-button active-person" id="john-selector">Chat 1</button>
+    <button class="button person-selector-button" id="jane-selector">Chat 2</button>
+    </div>
     <div class="chat-container">
+
 
       <div class="chat-messages">
         <div class="message blue-bg">
@@ -36,14 +41,14 @@
           <div class="message-timestamp">10:30 AM</div>
         </div>
         <div class="message gray-bg">
-          <div class="message-sender">Joi</div>
+          <div class="message-sender">Jane</div>
           <div class="message-text">The atomic number of Carbon is 6.</div>
           <div class="message-timestamp">10:35 AM</div>
         </div>
       </div>
 
       <form class="chat-input-form">
-        <input type="text" class="chat-input" required placeholder="Type anything!" />
+        <input type="text" class="chat-input" required placeholder="Type here, John..." />
         <button type="submit" class="button send-button">Send</button>
       </form>
       <button class="button clear-chat-button">Clear Chat</button>
