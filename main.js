@@ -59,8 +59,8 @@
 
           // @ts-nocheck
 
-const johnSelectorBtn = document.querySelector('#john-selector')
-const janeSelectorBtn = document.querySelector('#jane-selector')
+const johnSelectorBtn = document.querySelector('#model1-selector')
+const janeSelectorBtn = document.querySelector('#model2-selector')
 const chatHeader = document.querySelector('.chat-header')
 const chatMessages = document.querySelector('.chat-messages')
 const chatInputForm = document.querySelector('.chat-input-form')
@@ -70,7 +70,7 @@ const clearChatBtn = document.querySelector('.clear-chat-button')
 const messages = JSON.parse(localStorage.getItem('messages')) || []
 
 const createChatMessageElement = (message) => `
-  <div class="message ${message.sender === 'John' ? 'blue-bg' : 'gray-bg'}">
+  <div class="message ${message.sender === 'You' ? 'blue-bg' : 'gray-bg'}">
     <div class="message-sender">${message.sender}</div>
     <div class="message-text">${message.text}</div>
     <div class="message-timestamp">${message.timestamp}</div>
@@ -83,7 +83,7 @@ window.onload = () => {
   })
 }
 
-let messageSender = 'John'
+let messageSender = 'You'
 
 const updateMessageSender = (name) => {
   messageSender = name
