@@ -791,6 +791,10 @@ padding-bottom: 100px;
     ); */
     height: 100vh;
   }
+
+  .chat-header{
+    color: yellow;
+  }
   
   .button {
     border: none;
