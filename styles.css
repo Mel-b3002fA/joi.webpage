@@ -922,10 +922,10 @@ padding-bottom: 100px;
 }
   
 .send-button {
-    background-color: #1c9bef;
-    color: #fff;
-    font-size: 1em;
-    font-weight: bold;
+    background-color: var(--clr-mark);
+    font-family: Arvo;
+    color: #000000;
+    width: 5vw;
 }
   
 .clear-chat-button {
