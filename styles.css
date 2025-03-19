@@ -783,6 +783,7 @@ padding-bottom: 100px;
     display: flex;
     background-color: black;
     justify-content: center;
+    margin: 0px;
    /*  background-image: linear-gradient(
       23deg,
       hsl(49deg 100% 69%) 0%,
@@ -832,7 +833,9 @@ padding-bottom: 100px;
   }
   
   .active-person {
-    background: #08529d;
+    background: yellow;
+    color: black;
+    font-family: Arvo;
     box-shadow: 0 0 0.5em 0.1em #c3c3c333;
   }
   
