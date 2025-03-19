@@ -778,6 +778,7 @@ padding-bottom: 100px;
 .chat-wrapper{
     width: 70%vw;
 } 
+
  
 .chat-body {
     display: flex;
@@ -807,6 +808,7 @@ padding-bottom: 100px;
     padding: 0.625em;
     border-radius: 0.5em;
     cursor: pointer;
+    font-family:Arvo;
 }
   
 .button:hover {
@@ -833,10 +835,10 @@ padding-bottom: 100px;
 }
   
 .active-person {
-    background: yellow;
-    color: black;
+    background: #15202b;
+    color: rgb(255, 255, 255);
     font-family:Arvo;
-    box-shadow: 0 0 0.5em 0.1em #c3c3c333;
+
 }
   
 .chat-container {
@@ -894,7 +896,8 @@ padding-bottom: 100px;
 }
   
 .blue-bg {
-    background-color: #1c9bef;
+    background-color: yellow;
+    color: black;
 }
   
 .gray-bg {
@@ -929,3 +932,7 @@ padding-bottom: 100px;
     display: block;
     margin: 2.5em auto;
 }
+
+/* .model1-selector{
+    display:none;
+} */
