@@ -17,57 +17,45 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Handjet:wght@100..900&display=swap" rel="stylesheet">
-
+<link rel="stylesheet" href="./main.js">
     <link rel="stylesheet" href="./styles.css">
 </head>
-<body>
-    <header class="header"> 
-        <div class="header-wrapper">
+<body class="chat-body">
+    <div class="chat-wrapper">
+        <header class="chat-header"> 
+           <div class="chat-wrapper">
             <a href="./index.html" class="header-main">Joi</a>
-        <ul class="header-list">
-            <li class="header-list-item"><a href="./about.html">About</a></li>
-            <li class="header-list-item"><a href="./contact.html">Contact</a></li>
-            <li class="header-list-item"><a href="./blog.html">Blog</a></li>
-            <li class="header-list-item"><a href="./deployment.html">Models</a></li>
-        </ul>
-        <form class="color-picker"
-        action="">
-            <fieldset class="fieldset">
-                <div class="checkbox-wrapper">
-                    <label for="theme" class="theme-clr-light">
-                        <!-- <span><img src="./igm/Check.svg" alt="" class="checkbox-span"></span> -->
-                    </label>
-                    <input type="radio" 
-                    name="theme"
-                    id="light" checked>
-                   
-                </div> 
-                <div class="checkbox-wrapper">
-                    <label for="theme" 
-                     class="visually-hidden" class="theme-clr-pink">
-<!--                      <span><img src="" alt="" class="checkbox-span"></span> -->
-                    </label>
-                    <input type="radio" 
-                    name="theme"
-                    id="pink">
-
-                </div>
-                <div class="checkbox-wrapper">
-                    <label for="theme" 
-                     class="visually-hidden" class="theme-clr-black">
-<!--                      <span><img src="" alt="" class="checkbox-span"></span> -->
-                    </label>
-                    <input type="radio" 
-                    name="theme"
-                    id="black">
-                    
-                </div>
-                   
-            </fieldset>
-        </form>
-        <p class="header-para"><a href="./dev.html">Developer</a></p>
-<img src="./igm/Vector.png" alt="" class="header-img">
+           </div>
+        </header>
+    <!-- Person selector: this contains buttons for user to select whether to chat as John or Jane -->
+    <div class="person-selector">
+      <button class="button person-selector-button active-person" id="john-selector">John</button>
+      <button class="button person-selector-button" id="jane-selector">Jane</button>
     </div>
-    </header>
+    <div class="chat-container">
+      <h2 class="chat-header">John chatting...</h2>
+
+      <div class="chat-messages">
+        <div class="message blue-bg">
+          <div class="message-sender">John</div>
+          <div class="message-text">Hey Jane, what's up?</div>
+          <div class="message-timestamp">10:30 AM</div>
+        </div>
+        <div class="message gray-bg">
+          <div class="message-sender">Jane</div>
+          <div class="message-text">Not much, just living the dream. How about you?</div>
+          <div class="message-timestamp">10:35 AM</div>
+        </div>
+      </div>
+
+      <form class="chat-input-form">
+        <input type="text" class="chat-input" required placeholder="Type here, John..." />
+        <button type="submit" class="button send-button">Send</button>
+      </form>
+      <button class="button clear-chat-button">Clear Chat</button>
+    </div>
+
+    <script src="app.js"></script>
+    </div>
 </body>
 </html>
