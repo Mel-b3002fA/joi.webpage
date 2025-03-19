@@ -90,11 +90,11 @@ const updateMessageSender = (name) => {
   chatHeader.innerText = `${messageSender} chatting...`
   chatInput.placeholder = `Type here, ${messageSender}...`
 
-  if (name === 'John') {
+  if (name === 'Model1') {
     johnSelectorBtn.classList.add('active-person')
     janeSelectorBtn.classList.remove('active-person')
   }
-  if (name === 'Jane') {
+  if (name === 'Model2') {
     janeSelectorBtn.classList.add('active-person')
     johnSelectorBtn.classList.remove('active-person')
   }
@@ -103,8 +103,8 @@ const updateMessageSender = (name) => {
   chatInput.focus()
 }
 
-johnSelectorBtn.onclick = () => updateMessageSender('John')
-janeSelectorBtn.onclick = () => updateMessageSender('Jane')
+johnSelectorBtn.onclick = () => updateMessageSender('Model1')
+janeSelectorBtn.onclick = () => updateMessageSender('Model2')
 
 const sendMessage = (e) => {
   e.preventDefault()
