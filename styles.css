@@ -804,7 +804,7 @@ padding-bottom: 100px;
 }
   
 .button {
-    border: none;
+    border: 1px solid yellow;
     padding: 0.625em;
 /*     border-radius: 0.5em; */
     cursor: pointer;
@@ -829,14 +829,14 @@ padding-bottom: 100px;
   
 .person-selector-button {
     width: 100%;
-    background-color: #15202b;
-    color: #ffffff;
+    background-color: #15202b00;
+    color: yellow;
     font-size: 1.1em;
 }
   
 .active-person {
     background: #15202b;
-    color: rgb(255, 255, 255);
+    color: yellow;
     font-family:Arvo;
 
 }
