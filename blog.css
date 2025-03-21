@@ -3,8 +3,8 @@ list-style: none;
 text-decoration: none;
 }
 .blog-fieldset{
-margin-left: 100px;
-margin-right: 100px;
+margin-left: 120vw;
+margin-right: 120vw;
 }
 .blog-header-list{
     display: flex;
