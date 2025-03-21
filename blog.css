@@ -7,5 +7,15 @@ margin-left: 100px;
 margin-right: 100px;
 }
 .blog-header-list{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.blog-header-list-link{
     text-decoration: none; 
+}
+
+.blog-header-para{
+    text-decoration: none;
 }
