@@ -969,12 +969,31 @@ padding-bottom: 100px;
     display:none;
 } */
 
+.deadend{
+    background-color: var(--clr-bg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 60vh;
+
+}
 .deadend-link{
     text-decoration: none;
 }
 
 .deadend-wrapper{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    padding-top: 100px;
+    align-items: center;
+}
+
+.deadend-para1{
+    font-family: Arvo;
+    font-size: 30.5px;
+    font-weight: 600;
+}
+
+.deadend-para2{
+    font-family: Arvo;
+    font-weight: 200;
 }
