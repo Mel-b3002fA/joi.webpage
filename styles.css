@@ -958,3 +958,7 @@ padding-bottom: 100px;
 /* .model1-selector{
     display:none;
 } */
+
+.deadend-link{
+    text-decoration: none;
+}
