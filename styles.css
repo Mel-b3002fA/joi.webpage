@@ -711,6 +711,9 @@ padding-top: 100px;
     width: 700px;
     overflow: hidden;
 }
+.carousel-control-next-icon, .carousel-control-prev-icon, .carousel-indicator{
+    filter: brightness(0) saturate(100%) invert(0%) sepia(100%) saturate(6%) hue-rotate(99deg) brightness(101%) contrast(101%);
+}
 
 .footer{
     background-color: var(--clr-bg);
