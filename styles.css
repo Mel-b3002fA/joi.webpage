@@ -223,6 +223,9 @@ input{
     .png2{
         filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
     }
+    .footer-img{
+        filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
+    }
    /*  .header-img{
         display: block; */
     }
@@ -269,6 +272,10 @@ input{
     }
 
     .quote-right{
+        filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%)
+    }
+
+    .footer-img{
         filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%)
     }
 /* 
@@ -778,7 +785,7 @@ padding-bottom: 100px;
 .footer-img{
     width: 20px;
     height: 20px;
-    filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
+    filter: var(--clr-text);
 }
 .list-item{
     color: var(--clr-text);
