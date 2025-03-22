@@ -163,11 +163,11 @@ input{
 }
 
 .color-picker input[type="radio"]#pink {
- --radio-color: #fc9de3; 
+ --radio-color: #000000; 
 }
 
 .color-picker input[type="radio"]#light {
- --radio-color: #ffff00; 
+ --radio-color: #000000; 
 }
 
 .color-picker input[type="radio"]#black {
