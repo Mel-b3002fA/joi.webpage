@@ -163,15 +163,15 @@ input{
 }
 
 .color-picker input[type="radio"]#pink {
- --radio-color: #000000; 
+ --radio-color: #313131; 
 }
 
 .color-picker input[type="radio"]#light {
- --radio-color: #000000; 
+ --radio-color: #313131; 
 }
 
 .color-picker input[type="radio"]#black {
-   --radio-color: rgb(0, 0, 0); 
+   --radio-color: #313131; 
 }
 
 :root:has(#light:checked){
