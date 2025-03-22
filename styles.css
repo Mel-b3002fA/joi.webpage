@@ -167,7 +167,7 @@ input{
 }
 
 .color-picker input[type="radio"]#light {
- --radio-color: yellow; 
+ --radio-color: #ffff00; 
 }
 
 .color-picker input[type="radio"]#black {
@@ -416,7 +416,7 @@ color: var(--clr-text);
 .landing{
 /*     padding-top: 180px; */
 /*     overflow: scroll; */
-    padding-bottom: 300px;
+    padding-bottom: 100px;
     background-color:  var(--clr-bg) /* #f1a689 */;
 /*     scrollbar-color: #FFEB1C; */
 @media screen and (max-width: 768px){
