@@ -1,9 +1,9 @@
-*{
+/* *{
 list-style: none;
 text-decoration: none;
 }
 .blog-fieldset{
-margin-left: 120vw;
+margin-left: 10vw;
 margin-right: 120vw;
 }
 .blog-header-list{
@@ -18,4 +18,4 @@ margin-right: 120vw;
 
 .blog-header-para{
     text-decoration: none;
-}
+} */
