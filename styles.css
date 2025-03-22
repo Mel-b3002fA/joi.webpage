@@ -972,3 +972,9 @@ padding-bottom: 100px;
 .deadend-link{
     text-decoration: none;
 }
+
+.deadend-wrapper{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
