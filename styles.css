@@ -517,6 +517,7 @@ padding-bottom: 100px;
     font-family: Arvo;
     font-weight: 200;
     margin-left: 10px;
+    font-size: 28px;
 }
 
 .wrapper4-main{
@@ -531,6 +532,7 @@ padding-bottom: 100px;
     font-family: Arvo;
     font-weight: 200;
     margin-left: 10px;
+    font-size: 28px;
 }
 
 
@@ -538,7 +540,8 @@ padding-bottom: 100px;
     font-family: Arvo;
     font-weight: 200;
     margin-left: 10px;
-    font-size: 15px;
+    font-size: 28px;
+    text-decoration: none;
 }
 
 .wrapper5-main{
@@ -736,7 +739,7 @@ padding-top: 100px;
     justify-content: center;
     font-size: 12px;
     font-family: Arvo;
-    border-top: 2px solid black ;
+    border-top: 2px solid var(--clr-text);
     padding-top: 20px;
 }
 
@@ -775,8 +778,11 @@ padding-bottom: 100px;
 .footer-img{
     width: 20px;
     height: 20px;
+    filter: brightness(0) saturate(100%) invert(86%) sepia(20%) saturate(3168%) hue-rotate(235deg) brightness(108%) contrast(98%);
 }
-
+.list-item{
+    color: var(--clr-text);
+}
 
 
 
