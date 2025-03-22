@@ -278,6 +278,16 @@ input{
     .footer-img{
         filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%)
     }
+
+    .png1{
+        filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%)
+
+    }
+
+    .png2{
+        filter: brightness(0) saturate(100%) invert(86%) sepia(75%) saturate(587%) hue-rotate(340deg) brightness(102%) contrast(99%)
+
+    }
 /* 
     .checkbox-wrapper{
         -webkit-transition: background-color 1000ms linear;
