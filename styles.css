@@ -998,3 +998,19 @@ padding-bottom: 100px;
     font-family: Arvo;
     font-weight: 200;
 }
+
+.grid{
+background-color: var(--clr-bg);
+}
+
+.grid-wrapper{
+    display: grid;
+}
+.grid-item1{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.grid-img1{
+    max-width: 10vw;
+}
