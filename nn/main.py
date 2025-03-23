@@ -1,5 +1,11 @@
-# We always start with a dataset to train on. Let's download the tiny shakespeare dataset
-!wget https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt
+import urllib.request
+
+url = "https://raw.githubusercontent.com/karpathy/char-rnn/master/data/tinyshakespeare/input.txt"
+filename = "input.txt"
+
+urllib.request.urlretrieve(url, filename)
+print("Download complete!")
+
 
 
 # read it in to inspect it
@@ -8,7 +14,7 @@ with open('input.txt', 'r', encoding='utf-8') as f:
     print("length of dataset in characters: ", len(text))
 
     # let's look at the first 1000 characters
-print(text[:1000])
+print(text[:1000]) 
 
 # here are all the unique characters that occur in this text
 chars = sorted(list(set(text)))
@@ -25,7 +31,9 @@ print(encode("hii there"))
 print(decode(encode("hii there")))
 
 # let's now encode the entire text dataset and store it into a torch.Tensor
-import torch # we use PyTorch: https://pytorch.org
+import source
+
+ # we use PyTorch: https://pytorch.org
 data = torch.tensor(encode(text), dtype=torch.long)
 print(data.shape, data.dtype)
 print(data[:1000]) # the 1000 characters we looked at earier will to the GPT look like this
