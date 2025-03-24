@@ -92,6 +92,7 @@ torch.manual_seed(1337)
 
 class BigramLanguageModel(nn.Module):
 
+
     def __init__(self, vocab_size):
         super().__init__()
         # each token directly reads off the logits for the next token from a lookup table
