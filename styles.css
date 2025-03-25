@@ -767,6 +767,12 @@ padding-top: 100px;
 
 }
 
+/* .copyright-para{
+    display: flex;
+    max-width: 100%;
+    justify-content: space-between;
+} */
+
 .footer-main{
     font-family: Silkscreen;
 font-size: 57.5px;
