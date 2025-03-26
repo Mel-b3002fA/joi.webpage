@@ -757,7 +757,7 @@ padding-top: 100px;
 .footer-wrap{
     margin-top: 0;
     display: flex;
-   text-align: center;
+/*    text-align: center; */
    flex-direction: column;
    align-items: center;
 }
