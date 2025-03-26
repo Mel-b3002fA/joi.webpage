@@ -823,7 +823,7 @@ margin: 0;
 }
 
 .footer-img-list{
-/*     padding-top: 45px; */
+    padding-top: 10px;
     width: 140px;
     display: flex;
     justify-content: space-between;
