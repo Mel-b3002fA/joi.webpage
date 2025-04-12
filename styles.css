@@ -837,6 +837,21 @@ flex-direction: row;
     flex-direction: column;
 }
 
+.footer-dev{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer-contact{
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
 .footer-list-item1{
     display: flex;
     justify-content: flex-start;
