@@ -7,6 +7,11 @@
         box-sizing: border-box;
     
 }
+
+.body-main{
+  background-color: var(--clr-bg);
+}
+
 .title{
     font-family: Silkscreen;
 }
