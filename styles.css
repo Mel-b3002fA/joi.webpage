@@ -12,6 +12,10 @@
   background-color: var(--clr-bg);
 }
 
+.body-about{
+    background-color: var(--clr-bg);
+}
+
 .title{
     font-family: Silkscreen;
 }
