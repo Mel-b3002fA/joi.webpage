@@ -326,7 +326,7 @@ input{
    /*  margin-top: 0px; */
     display: flex;
     width: 100%;
-    justify-content: center;
+    justify-content: space-around;
  /*    position: fixed;
     z-index: 998; */
     background-color: var(--clr-bg);
@@ -338,13 +338,24 @@ input{
 .header-wrapper{
     display: flex;
     border-bottom: 2px solid var(--clr-text);
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     width: 59.6%;
     padding-bottom: 20px;
     @media screen and (max-width: 768px){
       width: 80vw;
     }
+}
+.div-wrap{
+    display: flex;
+    align-items: center;
+}
+.wrapper11{
+display: flex;
+}
+
+.wrapper22{
+    display: flex;
 }
 
 .header-main{
