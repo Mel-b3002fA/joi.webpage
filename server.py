@@ -1,4 +1,4 @@
- flask import Flask, request, jsonify, render_template
+flask import Flask, request, jsonify, render_template
 import ollama
 
 # Set the base URL for Ollama (Make sure Ollama is running on the correct port)
