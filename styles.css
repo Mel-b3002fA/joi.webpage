@@ -1125,8 +1125,14 @@ max-width: 50vw;
     grid-auto-rows: var(--row_increment);
     justify-content: center;
    background-color: black;
-   }
+}
 
+.card {
+    padding: 0;
+    margin: 15px 10px;
+    border-radius: var(--card_border_radius);
+    background-color: red;
+}
 
 
 
