@@ -1150,6 +1150,7 @@ max-width: 50vw;
 }
 .models-list{
     margin-top: 200px;
+    margin-bottom: 300px;
 display: flex;
   gap: 20px;
 }
