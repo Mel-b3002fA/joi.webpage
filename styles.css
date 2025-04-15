@@ -1143,8 +1143,14 @@ max-width: 50vw;
 .models{
     background-color: yellow;
 }
-.models-list{
+
+.models{
     display: flex;
+    justify-content: center;
+}
+.models-list{
+    margin-top: 200px;
+display: flex;
   gap: 20px;
 }
 
