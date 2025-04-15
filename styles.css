@@ -355,13 +355,6 @@ input{
     display: flex;
     align-items: center;
 }
-.wrapper11{
-display: flex;
-}
-
-.wrapper22{
-    display: flex;
-}
 
 .header-main{
 font-family: Silkscreen;
@@ -597,6 +590,14 @@ padding-bottom: 100px;
     margin-left: 10px;
     line-height: 150%;
 }
+
+.wrapper11{
+    display: flex;
+    }
+    
+    .wrapper22{
+        display: flex;
+    }
 
 .png1{
     width: 20px;
