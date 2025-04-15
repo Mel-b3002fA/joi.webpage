@@ -1141,7 +1141,7 @@ max-width: 50vw;
 }
 
 .models{
-    background-color: yellow;
+    background-color: var(--clr-bg);
 }
 
 .models{
