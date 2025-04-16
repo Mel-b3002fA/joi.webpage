@@ -1132,6 +1132,9 @@ max-width: 50vw;
 .card {
     padding: 0;
     margin: 15px 10px;
+   /*  max-height: 200px;
+    max-width: 300px;
+    overflow: hidden; */
     border-radius: var(--card_border_radius);
     background-color: red;
 }
