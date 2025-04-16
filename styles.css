@@ -1139,6 +1139,11 @@ max-width: 50vw;
     background-color: red;
 }
 
+.card-img{
+  max-height: 200px;
+max-width: 300px;
+}
+
 .model-body{
     background-color: var(--clr-bg);
 }
