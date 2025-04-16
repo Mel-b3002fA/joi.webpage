@@ -1148,6 +1148,10 @@ max-width: 50vw;
     background-color: var(--clr-bg);
 }
 
+.pins{
+    background-color: var(--clr-bg);
+}
+
 .model-body{
     background-color: var(--clr-bg);
 }
