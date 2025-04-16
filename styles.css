@@ -1142,6 +1142,7 @@ max-width: 50vw;
 .card-img{
   max-height: 200px;
   max-width: 300px;
+/*   border-radius: 17px; */
 }
 
 /* .pin-container{
