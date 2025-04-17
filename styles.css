@@ -1147,6 +1147,8 @@ max-width: 50vw;
 
 .pin-container{
    display: grid;
+   row-gap: 50px;
+   column-gap: 50px;
 }
  */
 .pins{
