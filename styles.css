@@ -733,7 +733,10 @@ font-family: Arvo;
 font-size: 30px;
 line-height: 180%;
 max-width: 500px;
+}
 
+.special-bg{
+background-color: var(--clr-mark);
  }
  
 .quote-right{
