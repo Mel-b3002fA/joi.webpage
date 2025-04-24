@@ -576,6 +576,12 @@ padding-bottom: 100px;
         align-items: center;
     }
 
+.idk-wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .png1{
     width: 20px;
     height: 27px;
