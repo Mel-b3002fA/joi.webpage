@@ -192,7 +192,7 @@ input{
    --radio-color: #313131; 
 }
 
-:root:has(#light:checked){
+
 
    /*  .checkbox-wrapper{
         -webkit-transition: background-color 1000ms linear;
@@ -212,7 +212,7 @@ input{
 /*     -webkit-transition: background-color 1000ms linear;
         -ms-transition: background-color 1000ms linear;
         transition: background-color 1000ms linear; */
-}
+
 
 :root:has(#pink:checked) {
     --clr-text: #FC9DF7;
