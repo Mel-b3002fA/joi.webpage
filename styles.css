@@ -702,6 +702,7 @@ padding-bottom: 100px;
 
  .quote{
     margin-top: 130px;
+    display: flex;
  }
 
  .quote-wrapper{
@@ -725,7 +726,7 @@ padding-bottom: 100px;
  }
 
 .quote-left{
-padding-bottom: 100px;
+padding-bottom: 200px;
 }
 
  .quote-text{
@@ -733,6 +734,7 @@ font-family: Arvo;
 font-size: 15px;
 line-height: 180%;
 max-width: 500px;
+padding-top: 20px;
 }
 
 .special-bg{
@@ -740,7 +742,7 @@ background-color: var(--clr-mark);
  }
  
 .quote-right{
-padding-top: 100px;
+padding-top: 0px;
 /* padding-right: 100px; */
  } 
 
